@@ -1744,7 +1744,7 @@ kbd {
 }
 .ak-site_header.ak-style1 .ak-main_header_in.style-2,
 .ak-site_header.ak-style1 .ak-top_header_in.style-2 {
-  padding: 0px 100px;
+  padding: 0px 50px;
   background: transparent;
   border: none;
   border-top: 1px solid #333846;
@@ -1990,8 +1990,8 @@ kbd {
   }
   .ak-site_header.ak-style1 .ak-main_header_in.style-2,
   .ak-site_header.ak-style1 .ak-top_header_in.style-2 {
-    -webkit-backdrop-filter: blur(8px);
-            backdrop-filter: blur(8px);
+    /* -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px); */
   }
   .ak-site_header.ak-style1 .ak-nav {
     display: flex;
@@ -2109,7 +2109,7 @@ kbd {
   }
   .ak-site_header.ak-style1 .ak-munu_toggle {
     top: 50%;
-    right: 18px;
+    right: 50px;
     margin-top: -13px;
   }
   .ak-toggle_active span {
@@ -4101,7 +4101,7 @@ select.form-select option {
 }
 .testimonial .testimonial-info .stroke-text {
   font-size: 160px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .testimonial .testimonial-info .testimonial-content {
   display: flex;
@@ -4235,6 +4235,10 @@ select.form-select option {
 /*--------------------------------------------------------------
   23. Pricing Calculator
 ----------------------------------------------------------------*/
+#bmi-calculator {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
 .pricing-calculator {
   background-color: #020f23;
 }
@@ -4499,6 +4503,7 @@ select.form-select option {
   max-width: 100%;
 }
 .bim-calculation .bim-calculator-from {
+  width: 100%;
   position: relative;
   z-index: 2;
 }
@@ -4525,7 +4530,7 @@ select.form-select option {
   .package-content .package .package-one.style2,
   .package-content .package .package-two.style2,
   .package-content .package .package-three.style2 {
-    max-width: 440px;
+    max-width: 510px;
     width: 100%;
   }
 }
@@ -4539,6 +4544,7 @@ select.form-select option {
   .package-content .package.type2 {
     gap: 50px;
     align-items: center;
+    padding-right: 10px;
   }
   .package-content .package .package-one,
   .package-content .package .package-two {
